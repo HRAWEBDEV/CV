@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+ font-family: 'ir-sans';
+ src: local('IRANSansWebFaNum UltraLight'), local('IRANSansWebFaNum-UltraLight'),
+  url('/src/fonts/fa/iran-sans/IRANSansWebFaNum-UltraLight.woff2')
+   format('woff2'),
+  url('/src/fonts/fa/iran-sans/IRANSansWebFaNum-UltraLight.woff') format('woff');
+ font-weight: 200;
+ font-style: normal;
+ font-display: swap;
+}
+@font-face {
+ font-family: 'ir-sans';
+ src: local('IRANSansWebFaNum Light'), local('IRANSansWebFaNum-Light'),
+  url('/src/fonts/fa/iran-sans/IRANSansWebFaNum-Light.woff2') format('woff2'),
+  url('/src/fonts/fa/iran-sans/IRANSansWebFaNum-Light.woff') format('woff');
+ font-weight: 300;
+ font-style: normal;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: 'ir-sans';
+ src: local('IRANSansWebFaNum'),
+  url('/src/fonts/fa/iran-sans/IRANSansWebFaNum.woff2') format('woff2'),
+  url('/src/fonts/fa/iran-sans/IRANSansWebFaNum.woff') format('woff');
+ font-weight: normal;
+ font-style: normal;
+ font-display: swap;
+}
+@font-face {
+ font-family: 'ir-sans';
+ src: local('IRANSansWebFaNum Medium'), local('IRANSansWebFaNum-Medium'),
+  url('/src/fonts/fa/iran-sans/IRANSansWebFaNum-Medium.woff2') format('woff2'),
+  url('/src/fonts/fa/iran-sans/IRANSansWebFaNum-Medium.woff') format('woff');
+ font-weight: 500;
+ font-style: normal;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: 'ir-sans';
+ src: local('IRANSansWebFaNum Black'), local('IRANSansWebFaNum-Black'),
+  url('/src/fonts/fa/iran-sans/IRANSansWebFaNum-Black.woff2') format('woff2'),
+  url('/src/fonts/fa/iran-sans/IRANSansWebFaNum-Black.woff') format('woff');
+ font-weight: 900;
+ font-style: normal;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: 'ir-sans';
+ src: local('IRANSansWebFaNum Bold'), local('IRANSansWebFaNum-Bold'),
+  url('/src/fonts/fa/iran-sans/IRANSansWebFaNum-Bold.woff2') format('woff2'),
+  url('/src/fonts/fa/iran-sans/IRANSansWebFaNum-Bold.woff') format('woff');
+ font-weight: bold;
+ font-style: normal;
+ font-display: swap;
+}
+
+body {
+ font-family: 'ir-sans';
+}
