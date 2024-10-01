@@ -1,0 +1,17 @@
+{
+ "name": "cv",
+ "version": "1.0.0",
+ "description": "cv",
+ "main": "index.js",
+ "scripts": {
+  "style": "npx tailwindcss -i ./input.css -o ./index.css --watch"
+ },
+ "keywords": [
+  "cv"
+ ],
+ "author": "hamid reza akbari",
+ "license": "ISC",
+ "devDependencies": {
+  "tailwindcss": "^3.4.13"
+ }
+}
